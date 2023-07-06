@@ -4,6 +4,8 @@ import { Icon } from "@iconify/react";
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
 
+
+
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
@@ -59,13 +61,13 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="file-icons:apollo" className="display-4" />,
+    name: "Apollo Server/ GraphQL",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="mdi:tailwind" className="display-4" />,
+    name: "Tailwind CSS",
   },
   {
     id: 8,
@@ -76,6 +78,21 @@ export const skillData = [
     id: 9,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="cib:mysql" className="display-4" />,
+    name: "MySQL",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="devicon-plain:mongodb-wordmark" className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="fa-brands:node" className="display-4" />,
+    name: "Node.js",
   },
 ];
 
@@ -91,7 +108,15 @@ export const filteredProjects = ["The-Pupperz", "chroniclesblog", "Your-fridge-a
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "chroniclesblog",
+    image: Logo,
+  },
+  {
+    name: "The-Pupperz",
+    image: Logo,
+  },
+  {
+    name: "Your-fridge-and-your-bar",
     image: Logo,
   },
 ];
