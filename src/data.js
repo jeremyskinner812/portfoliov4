@@ -3,12 +3,15 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
+import Pupperz from "./images/Pupperz.jpg";
+import Fridge from "./images/Fridge.jpg";
+import Chronicles from "./images/Chronicles.jpg";
 
 
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/hero-light2.jpg";
+import HeroDark from "./images/hero-dark2.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -20,15 +23,16 @@ export { HeroDark as Dark };
 export const githubUsername = "jeremyskinner812";
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="uil:linkedin" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, Cloudfront, Formspree, and the GitHub REST API. I have a passion for problem solving, am a quick learner, and always looking for new challenges and opportunities. I earned a certificate in full stack web development from the University of California Irvine and am currently looking for a full time position as a web or software developer.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, Cloudfront, Formspree, and the GitHub REST API. I have a passion for problem solving, am a quick learner, and always looking for new challenges and opportunities.";
 
+export const moreInfo2 = "I have earned a certificate in full stack web development from the University of California Irvine and am currently looking for a full time position as a web or software developer. In my free time I enjoy playing bass guitar, video games, kayaking, and studying new technologies.";
 /* Skills
  ************************************************************** 
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
@@ -97,7 +101,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://d3p2u4u0q31jp6.cloudfront.net/resumejds.pdf";
+export const resume = "https://d3p2u4u0q31jp6.cloudfront.net/resumeJeremySkinner.pdf";
 
 /* Projects
  ************************************************************** 
@@ -109,15 +113,15 @@ export const filteredProjects = ["The-Pupperz", "chroniclesblog", "Your-fridge-a
 export const projectCardImages = [
   {
     name: "chroniclesblog",
-    image: Logo,
+    image: Chronicles,
   },
   {
     name: "The-Pupperz",
-    image: Logo,
+    image: Pupperz,
   },
   {
     name: "Your-fridge-and-your-bar",
-    image: Logo,
+    image: Fridge,
   },
 ];
 
